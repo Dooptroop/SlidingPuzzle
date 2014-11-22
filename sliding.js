@@ -14,7 +14,7 @@ function populateArray(){
 function draw2(){
 	
 	for (var i = 0; i < grid; i++) {
-		index[i] = document.getElementById(""+i+"");
+		index[i] = document.getElementById(i);
 		
 		index[i].src = path+images[i]+ext;
 	};
