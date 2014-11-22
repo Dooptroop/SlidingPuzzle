@@ -1,4 +1,5 @@
 var images = new Array(16);
+var index = new Array(16);
 var grid = 16;
 var path = "Puzzle_Images\\";
 var ext = ".jpg";
@@ -13,7 +14,7 @@ function populateArray(){
 function draw2(){
 	
 	for (var i = 0; i < grid; i++) {
-		index[i] = document.getElementById(i);
+		index[i] = document.getElementById(""+i+"");
 		
 		index[i].src = path+images[i]+ext;
 	};
