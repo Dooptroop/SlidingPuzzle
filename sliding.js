@@ -1,5 +1,4 @@
 var images = new Array(16);
-var index = new Array(16);
 var grid = 16;
 var path = "Puzzle_Images\\";
 var ext = ".jpg";
