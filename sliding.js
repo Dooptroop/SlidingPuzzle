@@ -11,7 +11,7 @@ function populateArray(){
 	}
 	images[15]="blank";
 }
-function draw2(){
+function draw(){
 	
 	for (var i = 0; i < grid; i++) {
 		index[i] = document.getElementById(i);
@@ -34,5 +34,5 @@ function shuffle(){
       images[i] = a;
       i++;
    	}    
-    draw2();//refresh screen
+    draw();//refresh screen
 }
