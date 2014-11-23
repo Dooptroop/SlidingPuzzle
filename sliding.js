@@ -10,6 +10,7 @@ function populateArray(){
 		i++
 	}
 	images[15]="blank";
+	draw();
 }
 function draw(){
 	
@@ -17,6 +18,7 @@ function draw(){
 		index[i] = document.getElementById(i);
 		
 		index[i].src = path+images[i]+ext;
+		
 	};
 	
 }
@@ -35,4 +37,8 @@ function shuffle(){
       i++;
    	}    
     draw();//refresh screen
+}
+
+function imageClick(){
+	window.alert(""+arguments[0]+"");
 }
