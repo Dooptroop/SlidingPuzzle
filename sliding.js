@@ -28,6 +28,7 @@ function draw(){
 }
 
 function shuffle(){
+	populateArray();
 	for (var i = 0; i < match.length; i++) {
 		match[i]=false;
 	};
@@ -43,7 +44,7 @@ function shuffle(){
       images[i] = a;
       i++;
    	}    
-   	images[15]="blank";
+   	
     draw();//refresh screen
 }
 
