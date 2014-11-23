@@ -7,10 +7,10 @@
 <body onload="populateArray(); draw();">
 	
 	<div id="buttonTray">
-		<input id="buttonShuffle" type="button" value="ForceDraw" onclick="draw();">
+		<input id="buttonCreatedBy" type="button" value="CreatedBy" onclick="alert();">
 		<input id="buttonShuffle" type="button" value="Shuffle" onclick="shuffle();">
-		<input id="buttonShuffle" type="button" value="Alert" onclick="alert();">
-		<input id="buttonShuffle" type="button" value="test click" onclick="imageClick();">
+		
+		<input id="buttonTestWin" type="button" value="Test Win" onclick="testWin();">
 	</div>
 
 	<table border='1'>
@@ -34,7 +34,7 @@
 			<td> <img id="11" onclick="imageClick(this.id);"></td>
 		</tr> 
 		<tr>
-			<td> <img id="12" > </td>
+			<td> <img id="12" onclick="imageClick(this.id);"> </td>
 			<td> <img id="13" onclick="imageClick(this.id);"> </td>
 			<td> <img id="14" onclick="imageClick(this.id);"> </td>
 			<td> <img id="15" onclick="imageClick(this.id);"></td>
