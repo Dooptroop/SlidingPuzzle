@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Sliding Puzzle</title>
+	<link rel="stylesheet" type="text/css" href="puzzleStyle.css">
 	<script src="sliding.js"></script>
 </head>
 <body onload="populateArray(); draw();">
@@ -13,7 +14,8 @@
 		<input id="buttonTestWin" type="button" value="Test Win" onclick="testWin();">
 	</div>
 
-	<table border='1'>
+	<div id="table_wrapper">
+		<table border='1'>
 
 		<tr>
 			<td><img id="0" onclick="imageClick(this.id);"></td>
@@ -42,6 +44,7 @@
 
 	</table> 
 
+	</div>	
 
 
 
